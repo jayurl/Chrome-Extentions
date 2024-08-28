@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Email Code Autofill</title>
+        <style>
+            body {
+                width: 200px;
+                padding: 10px;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                background-color: rgb(170, 232, 198);;
+                
+            }
+            button {
+                width: 100%;
+                padding: 10px;
+                margin-top: 10px;
+                background-color: mediumseagreen;
+                color: white;
+                border-color: black;
+                cursor: pointer;
+                font-size: 16px;
+            }
+            button:hover {
+                background-color: rgb(170, 232, 198);
+            }
+            #code-display {
+            margin-top: 10px;
+            font-size: 14px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Email Code Autofill</h1>
+        <button id="fetch-code">Fetch Code</button>
+        <div id="code-display"></div>
+        <script src="popup.js"></script>
+    </body>
+</html>
